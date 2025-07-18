@@ -1,0 +1,8 @@
+2025-07-18 03:54:54,306 - INFO - Starting PSD processing for: C:\Users\Atharva\Documents\upwork\Alexander\psd\[Classic Case,iPhone 17 Pro Max,Alligator]_1.psd
+2025-07-18 03:54:54,307 - INFO - Output directory: C:\Users\Atharva\Documents\upwork\Alexander\psd\output
+2025-07-18 03:54:54,309 - ERROR - Error during processing: 'PSDProcessor' object has no attribute 'process'
+Traceback (most recent call last):
+  File "C:\Users\Atharva\Documents\upwork\Alexander\psd_layer_processor.py", line 766, in main
+    success, variants = processor.process()
+                        ^^^^^^^^^^^^^^^^^
+AttributeError: 'PSDProcessor' object has no attribute 'process'
