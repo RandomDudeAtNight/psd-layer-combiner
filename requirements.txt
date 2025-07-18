@@ -6,20 +6,8 @@ gunicorn==21.2.0
 psd-tools>=1.10.8
 Pillow>=11.3.0
 
-# Google Drive API
-google-auth==2.23.3
-google-auth-oauthlib==1.1.0
-google-auth-httplib2==0.1.1
-google-api-python-client==2.103.0
-
 # HTTP requests
 requests==2.31.0
 
 # Logging and utilities
 python-dotenv==1.0.0
-
-# Development dependencies (optional)
-pytest==7.4.2
-pytest-cov==4.1.0
-black==23.9.1
-flake8==6.1.0
